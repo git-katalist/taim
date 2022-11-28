@@ -4,6 +4,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  images: {
+    loader: "akamai",
+    path: `/${repo}`,
+  },
 };
 
 module.exports = nextConfig;
